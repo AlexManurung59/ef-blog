@@ -9,12 +9,9 @@ export default defineConfig({
   projectId: 'qgxyf2ot',
   dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
+  plugins: [structureTool()],
 
   schema: {
     types: schemaTypes,
   },
 })
-function visionTool(): any {
-  throw new Error('Function not implemented.')
-}
